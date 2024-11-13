@@ -104,7 +104,7 @@ if (isset($_POST['register'])) {
 <nav class="navbar">
         <div class="logo_item">
          
-          <img src="img/target.jpg" ></i><font color="white" ><a href="1.html" style="color:#29539f; text-decoration: none; font-size: 22px;">Target Audience Navigator</a></font>
+          <img src="img.jpg" ></i><font color="white" ><a href="1.html" style="color:#29539f; text-decoration: none; font-size: 22px;">Header</a></font>
          </div>
         <font align="left">  <a href="1.html" style="color:#29539f; text-decoration: none; font-size: 15px;">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         <a href="aboutus.php" style="color:#29539f; text-decoration: none; font-size: 15px;">About us</a></font>
