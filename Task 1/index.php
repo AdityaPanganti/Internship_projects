@@ -3,7 +3,7 @@ include "config.php";
 session_start();
 
 if (isset($_SESSION['id'])) {
-    header("Location: home.php");
+    header("Location: #");
     exit(); // Ensure script stops after redirecting
 }
 
