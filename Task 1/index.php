@@ -37,7 +37,7 @@ if(isset($_POST['login'])){
             // Don't store password in cookies
             setcookie('username', $name);
 
-            header("Location: home.php");
+            header("Location: #");
             exit(); // Ensure script stops after redirecting
         } else {
             echo "<script>alert('Wrong password')</script>";
