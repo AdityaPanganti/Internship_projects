@@ -73,10 +73,10 @@ if (isset($_POST['register'])) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Port = 587; // Correct SMTP port for Gmail
-        $mail->Username = 'pangantiaditya@gmail.com';
-        $mail->Password = 'qxdloyjwvmdukisi';
+        $mail->Username = '#';
+        $mail->Password = '#';
         $mail->SMTPSecure = 'tls'; // Use TLS instead of SSL
-        $mail->setFrom('pangantiaditya@gmail.com', 'TAN');
+        $mail->setFrom('#', '#');
         $mail->addAddress($email);
         $mail->isHTML(true);
         $mail->Subject = 'Verification code to verify your Email Address';
